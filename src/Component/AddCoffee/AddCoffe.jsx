@@ -34,7 +34,7 @@ const handelAdd = event =>{
     {
       Swal.fire({
         title: 'Success!',
-        text: 'User Added Successfully',
+        text: 'Coffee Added Successfully',
         icon: 'success',
         confirmButtonText: 'Yea!'
       })
@@ -131,7 +131,7 @@ const handelAdd = event =>{
             <input type="text" name="photo" placeholder="info@site.com" className="input input-bordered w-full" />
           </label>
         </div>
-        <input type="submit" value="Add File" className="btn btn-block ml-4"/>
+        <input type="submit" value="Add Coffee" className="btn btn-block ml-4"/>
       </form>
     </div>
   );
