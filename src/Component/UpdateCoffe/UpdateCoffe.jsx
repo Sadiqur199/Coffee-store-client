@@ -5,7 +5,6 @@ const UpdateCoffe = () => {
   const coffee = useLoaderData()
   const { _id, name, quantity, supplier, taste, photo,details,category } = coffee;
 
-
   const handelUpdate = event =>{
     event.preventDefault()
     const form = event.target
